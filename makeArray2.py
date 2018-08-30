@@ -1,3 +1,5 @@
+# for while 禁止
+
 i = 1
 x = []
 
