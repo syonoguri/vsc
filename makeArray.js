@@ -3,7 +3,7 @@
 const makeArray = function() {
     x = [];
     for(i=1; i<=30; i++) {
-        if(i%3===0 || i%5===0 || i%7===0 || i%11===0) continue;
+        if(i%3!==0 && i%5!==0 && i%7!==0 && i%11!==0) continue;
         x.push(i);
     }
     return x;

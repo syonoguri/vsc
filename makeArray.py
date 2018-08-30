@@ -5,7 +5,7 @@ def makeArray():
     i = 0
     while i < 30:
         i += 1
-        if i%3==0 or i%5==0 or i%7==0 or i%11==0: continue
+        if i%3!=0 and i%5!=0 and i%7!=0 and i%11!=0: continue
         x.append(i)
     return x
 

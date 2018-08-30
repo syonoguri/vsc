@@ -12,4 +12,3 @@ const makeArray2 = function() {
 
 console.log(makeArray2());
 
-// 最初に配列を用意するバージョンを作る
