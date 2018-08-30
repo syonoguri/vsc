@@ -1,3 +1,4 @@
+// for while 禁止
 const makeArray2 = function() {
     let x = [];
     let i = 0;
