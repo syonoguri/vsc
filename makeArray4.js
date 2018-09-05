@@ -9,6 +9,7 @@ const makeArray4 = function a() {
         x.push(i);
         push_i()       
     })();
+    
     function b(value, index, sourceArray){
         if(value%3===0 || value%5===0 || value%7===0 || value%11===0) {
             return true;
