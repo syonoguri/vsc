@@ -1,17 +1,21 @@
 # 配列nsからx回、逐次的にその時点での最大のnを１減らした配列にするメソッド
 # for while禁止
-# 未完成
 
-"""
-i = 1
+
+
+
 def cherry_pick(ns, x):
-    global i
-    if i>x: return ns
-    mx = ns.index(max(ns))
-    ns[mx] -= 1
-    i += 1
+    if (x<1):
+        return print(ns)
+    else:
+        mx = ns.index(max(ns))
+        ns[mx] -= 1
+        x -= 1
+        cherry_pick(ns,x)
+    
 
+    
 
-print(cherry_pick([9, 7, 8], 3))
-print(cherry_pick([9, 7, 8], 10))
-"""
+cherry_pick([9, 7, 8], 3)
+cherry_pick([9, 7, 8], 10)
+
